@@ -10,6 +10,7 @@ let path = {
         js: project_folder + "/js/",
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
+        icons: project_folder + "/icons/",
     },
     src: {
         html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
@@ -17,6 +18,7 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: source_folder + "/fonts/*.ttf",
+        icons: source_folder + "/icons/*.svg",
     },
     watch: {
         html: source_folder + "/**/*.html",
@@ -153,12 +155,13 @@ gulp.task('svgSprite', function() {
         .pipe(svgSprite({
             mode: {
                 stack: {
-                    sprite: "../icons/icons.svg"
+                    sprite: "../icons/icons.svg",
+                    exmaple: true
                 }
             },
         }))
         .pipe(dest(path.build.img))
-})
+});
 
 function watchFiles() {
     gulp.watch([path.watch.html], html);
