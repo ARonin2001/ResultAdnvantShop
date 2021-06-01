@@ -23,6 +23,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-loop:before {
+  content: "\e90d";
+  color: #c8c7cc;
+}
 .icon-arrow-right:before {
   content: "\e900";
   color: #2d9cee;
