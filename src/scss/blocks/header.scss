@@ -1,0 +1,130 @@
+.header {
+    &__info {
+        padding: 19px 0;
+        display: flex;
+        align-items: center;
+        color: $gray-color;
+        font-size: $font-size16;
+        
+        &-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            &_left {
+                display: flex;
+            }
+        }
+    }
+
+    // location
+    &__location, &__number {
+        display: flex;
+        align-items: center;
+    }
+    &__location {
+        margin-right: 29px;
+        // line-height: 140%;
+    }
+    &__icon-location {
+        margin-right: 12px;
+    }
+
+    //phone
+    &__phone {
+        color: $gray-color;
+        margin-right: 12px;
+    }
+    &__phone_call {
+        font-size: 12px;
+    }
+
+    hr {
+        height: 1px;
+        background: #EFEFF4;
+    }
+
+    // block search and Logo
+    &__search {
+        display: flex;
+        align-items: center;
+
+        &-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 26px 0 26px 31px;
+
+            &-left {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    &__logo {
+        margin-right: 58px;
+    }
+
+    &__input-container {
+        position: relative;        
+    }
+    &__input_search {
+        background: #F9F9F9;
+        border-radius: 4px;
+        width: 399px;
+        height: 48px;
+        padding-left: 44px;
+    }
+    &__icon-loop {
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        left: 13px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    // icons
+    &__icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__icons {
+        font-size: 24px;
+    }
+    &__icons>a:nth-child(-n+2) {
+        margin-right: 20px;
+    }
+    &__basket {
+        margin-right: 12px;
+        &-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        &-text {
+            font-size: $font-size16;
+            color: $blue-color;
+        }
+        &-count {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            font-size: 12px;
+            background: $blue-color;
+            border: 3px solid #FFFFFF;
+            color: #ffffff;
+            border-radius: 50%;
+            line-height: 24px;
+
+            bottom: 16px;
+            left: 10px;
+        }
+    }
+}
