@@ -23,60 +23,53 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-loop:before {
-  content: "\e90d";
-  color: #c8c7cc;
-}
-.icon-arrow-right:before {
-  content: "\e900";
-  color: #2d9cee;
-}
-.icon-arrow-up:before {
-  content: "\e901";
-  color: #2d9cee;
-}
-.icon-basket:before {
-  content: "\e902";
-  color: #2d9cee;
-}
-.icon-cardio:before {
-  content: "\e903";
-  color: #2d9cee;
-}
-.icon-comparison:before {
-  content: "\e904";
-}
-.icon-location-arraw:before {
-  content: "\e905";
-  color: #666;
-}
-.icon-procent:before {
-  content: "\e906";
-  color: #2d9cee;
-}
-.icon-star:before {
-  content: "\e907";
-  color: #2d9cee;
-}
-.icon-tovars:before {
-  content: "\e908";
-  color: #2d9cee;
-}
-.icon-trash-can:before {
-  content: "\e909";
-  color: #c8c7cc;
-}
 .icon-user .path1:before {
-  content: "\e90a";
+  content: "\e904";
   color: rgb(226, 226, 226);
 }
 .icon-user .path2:before {
-  content: "\e90b";
+  content: "\e907";
   margin-left: -0.9599609375em;
   color: rgb(138, 138, 143);
 }
 .icon-user .path3:before {
-  content: "\e90c";
+  content: "\e90a";
   margin-left: -0.9599609375em;
   color: rgb(138, 138, 143);
+}
+.icon-comprasion:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e90b";
+}
+.icon-burger:before {
+  content: "\e90c";
+}
+.icon-arrow-right:before {
+  content: "\e900";
+}
+.icon-arrow-up:before {
+  content: "\e901";
+}
+.icon-basket:before {
+  content: "\e902";
+}
+.icon-cardio:before {
+  content: "\e903";
+}
+.icon-location-arraw:before {
+  content: "\e905";
+}
+.icon-procent:before {
+  content: "\e906";
+}
+.icon-star:before {
+  content: "\1f374";
+}
+.icon-tovars:before {
+  content: "\e908";
+}
+.icon-trash-can:before {
+  content: "\e909";
 }
